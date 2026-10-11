@@ -1,15 +1,12 @@
 # Exam Writing Logic
 
-เก็บ "logic การเขียนตอบข้อสอบ" ของอาจารย์แต่ละท่าน สรุปด้วยคำของตัวเอง ใช้ทบทวน ฝึกเขียน และให้ AI ช่วยตรวจ
-
-> ⚠️ แนะนำให้ตั้ง repo เป็น **Private** ถ้าใส่ไฟล์ต้นฉบับใน `sources/`
+เก็บ "logic การเขียนตอบข้อสอบ" 
 
 ## โครงสร้าง
-- `teachers/` สรุป logic ของอาจารย์แต่ละท่าน
-- `templates/` โครงเปล่าให้กรอกตอนฝึกเขียน
-- `examples/` ตัวอย่างคำตอบสั้นๆ ตาม logic
-- `prompts/grader-prompt.md` prompt ให้ AI ตรวจคำตอบ
-- `sources/` ไฟล์ต้นฉบับ (ไม่ถูก commit ตาม .gitignore)
+- [อาจารย์ K](teachers/k.md)
+- [อาจารย์ CT](teachers/ct.md)
+- [อาจารย์ PK](teachers/pk.md)
+- [Grader prompt](prompts/grader-prompt.md)
 
 ## เปรียบเทียบเร็ว
 
